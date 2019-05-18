@@ -1,0 +1,10 @@
+# Global admin styling.
+global-admin-styling:
+  css:
+    theme:
+      css/d324theme-admin.theme.style.css: {}
+
+# Global admin scripts.
+global-admin-scripts:
+  js:
+    js/d324theme-admin.script.js: {}
