@@ -2,5 +2,5 @@
 /.sass-cache
 .DS_Store
 *.codekit
-.idea
+.idea/
 node_modules
