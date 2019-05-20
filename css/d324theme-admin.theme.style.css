@@ -1,6 +1,8 @@
-input[type="text"] {
+@charset "UTF-8";
+input[type=text] {
   max-width: 100%;
 }
+
 #branding {
   background-color: #f9f9f9;
   border-bottom: 1px solid #eee;
@@ -8,31 +10,37 @@ input[type="text"] {
 #branding h1.page-title {
   color: #444;
 }
+
 div.breadcrumb a:hover {
   color: #333;
 }
+
 div.vertical-tabs ul li.first a {
   border-top: 2px solid #0074bd;
 }
+
 /* @todo Fix problem in checboxes with adminimal theme + fpa */
 .page-admin-people-permissions .dummy-checkbox {
   display: none !important;
 }
+
 .node-form .field--name-title input {
   font-size: 22px;
   width: 100%;
 }
+
 /* Style the description of fields */
 body ul.tips:before,
 body div.description:before,
 body .form-item .description:before,
 body .form-wrapper .counter:before {
-  content: "\00bb";
+  content: "»";
   font-size: 15px;
   color: #4fa5ff;
   margin-right: 4px;
   float: left;
 }
+
 ul.tips,
 div.description,
 .form-item .description,
@@ -41,6 +49,7 @@ body .form-wrapper .counter {
   color: #777;
   font-size: 0.9em;
 }
+
 .adminimal .ui-dialog .ui-dialog-titlebar {
   border-radius: 0;
   background: #007bc6;
@@ -58,10 +67,12 @@ body .form-wrapper .counter {
 .adminimal .ui-dialog.ui-widget.ui-widget-content .media-image-edit-form .form-actions {
   display: none;
 }
+
 .layout-region-node-secondary .form-item {
   margin-left: 0.75em;
   margin-right: 0.75em;
 }
+
 .details-wrapper {
   padding: 0.75em;
 }
@@ -70,10 +81,11 @@ body .form-wrapper .counter {
     table-layout: fixed;
   }
   .details-wrapper table .image-preview,
-  .details-wrapper table .image-widget-data {
+.details-wrapper table .image-widget-data {
     float: none;
   }
 }
+
 #edit-created-from,
 #edit-created-to,
 #edit-user-created-from,
@@ -82,9 +94,12 @@ body .form-wrapper .counter {
 #edit-content-created-to {
   width: 150px;
 }
+
 .adminimal .button--small.button--primary {
   color: #333;
 }
 .adminimal .button--small.button--primary:hover {
   color: #fff;
 }
+
+/*# sourceMappingURL=d324theme-admin.theme.style.css.map */

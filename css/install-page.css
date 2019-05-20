@@ -1,5 +1,5 @@
 body.install-page {
-  background-image: url('../images/d324-bg.jpg');
+  background-image: url("../images/d324-bg.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -12,7 +12,7 @@ body.install-page {
   background-color: initial;
 }
 body.install-page .logo a {
-  background-image: url('../images/d324-white-logo.png');
+  background-image: url("../images/d324-white-logo.png");
   background-position-x: 0px;
   background-position-y: 0px;
   background-size: 100%;
@@ -29,6 +29,7 @@ body.install-page .site-version {
   font-weight: bold;
   font-size: 0.6em;
 }
+
 footer.installer-footer {
   margin: 0 auto;
   width: 75%;
@@ -49,19 +50,23 @@ footer.installer-footer #credit a {
   padding: 50px 0 0;
   width: 125px;
 }
-[dir="rtl"] footer.installer-footer #credit {
+
+[dir=rtl] footer.installer-footer #credit {
   float: left;
   text-align: left;
   padding: 20px 0 40px;
   font-size: 11px;
 }
+
 .installer-logo {
   width: 222px;
 }
+
 @media (min-width: 48em) {
   .page-title {
     margin-left: 1.3em !important;
     color: #4192c8;
   }
 }
+
 /*# sourceMappingURL=install-page.css.map */
