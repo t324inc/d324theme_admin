@@ -12,7 +12,7 @@ body.install-page {
   background-color: initial;
 }
 body.install-page .logo a {
-  background-image: url(../images/d324-white-logo.png);
+  background-image: url('../images/d324-white-logo.png');
   background-position-x: 0px;
   background-position-y: 0px;
   background-size: 100%;
@@ -64,3 +64,4 @@ footer.installer-footer #credit a {
     color: #4192c8;
   }
 }
+/*# sourceMappingURL=install-page.css.map */

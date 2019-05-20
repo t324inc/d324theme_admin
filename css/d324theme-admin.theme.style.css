@@ -14,7 +14,7 @@ div.breadcrumb a:hover {
 div.vertical-tabs ul li.first a {
   border-top: 2px solid #0074bd;
 }
-/* @todo Fix problem in checkboxes with adminimal theme + fpa */
+/* @todo Fix problem in checboxes with adminimal theme + fpa */
 .page-admin-people-permissions .dummy-checkbox {
   display: none !important;
 }
@@ -81,4 +81,10 @@ body .form-wrapper .counter {
 #edit-content-created-from,
 #edit-content-created-to {
   width: 150px;
+}
+.adminimal .button--small.button--primary {
+  color: #333;
+}
+.adminimal .button--small.button--primary:hover {
+  color: #fff;
 }
