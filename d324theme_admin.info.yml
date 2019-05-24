@@ -6,6 +6,7 @@ core: 8.x
 type: theme
 base theme: adminimal_theme
 package: 'D324'
+screenshot: screenshot.png
 
 regions:
   header: 'Header'
