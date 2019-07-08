@@ -102,4 +102,87 @@ body .form-wrapper .counter {
   color: #fff;
 }
 
+.media-library-menu li {
+  display: block;
+}
+
+.media-library-menu.nav {
+  display: block;
+}
+
+.media-library-wrapper .media-library-view > nav {
+  order: 4;
+}
+
+.media-library-wrapper .media-library-view > nav .pager__item {
+  padding: 0;
+}
+
+.media-library-item {
+  margin: 0;
+}
+
+.media-library-item.is-hover, .media-library-item.checked, .media-library-item.is-focus {
+  margin: 0;
+  padding: 6px;
+}
+
+.media-library-item--grid.is-hover:before, .media-library-item--grid.checked:before, .media-library-item--grid.is-focus:before {
+  border: none;
+}
+
+.media-library-add-form .form-item-upload {
+  display: flex;
+}
+
+.media-library-add-form .form-item-upload label {
+  display: none;
+}
+
+.media-library-add-form .form-item-upload small {
+  display: none;
+}
+
+.media-library-item--table.media-library-item .form-item {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  z-index: 1;
+}
+
+.media-library-item--table.media-library-item .form-item input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.media-library-item .js-click-to-select-checkbox input {
+  background: none;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+}
+
+.media-library-item .js-click-to-select-checkbox {
+  left: 5px;
+  bottom: 5px;
+}
+
+.media-library-add-form__input-wrapper .description {
+  display: none;
+}
+
+.media-library-item .action-links {
+  margin: 0 !important;
+}
+
+.js .js-hide {
+  display: none !important;
+}
+
 /*# sourceMappingURL=d324theme-admin.theme.style.css.map */
